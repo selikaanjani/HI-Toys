@@ -1,0 +1,2130 @@
+/* Selika Anjani Putri Satiti
+    2602138920
+*/
+
+
+/* media queries */
+
+/* tablet */
+@media (max-width: 768px) {
+    body{
+        font-size: smaller;
+    }
+    .navbar-nav{
+        background-color: rgb(202, 233, 255);
+
+    }
+    .navbar-icon{
+        color: black;
+        position: absolute;
+        background-color: rgb(202, 233, 255);
+    }
+}
+
+/* hp */
+@media (max-width: 450px) {
+
+}
+
+body{
+    font-family: 'Poppins', 'Inter';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+
+.navbar .navbar-nav{
+    color: black;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 1.4 rem 7%;
+    background-color: rgb(202, 233, 255);
+    font-family: 'New Shape';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 27px;
+    right: 200px;
+}
+
+.navbar .navbar-nav #home{
+    font-family: 'New Shape';
+    color: black;
+    text-align: center;
+    padding: 20px 16px;
+}
+
+.navbar .navbar-nav #home:hover{
+    font-family: 'New Shape';
+    color: white;
+    background-color: #1B4965;
+}
+
+.navbar .navbar-nav #a1{
+    font-family: 'New Shape';
+    color: black;
+    text-align: center;
+    padding: 19px 19px;
+}
+
+.navbar .navbar-nav #a1:hover{
+    font-family: 'New Shape';
+    color: white;
+    background-color: #1B4965;
+}
+
+.navbar .navbar-nav #a2{
+    font-family: 'New Shape';
+    color: black;
+    text-align: center;
+    padding: 19px 19px;
+}
+
+.navbar .navbar-nav #a2:hover{
+    font-family: 'New Shape';
+    color: white;
+    background-color: #1B4965;
+}
+
+.navbar .navbar-nav #a3{
+    font-family: 'New Shape';
+    color: black;
+    text-align: center;
+    padding: 19px 19px;
+}
+
+.navbar .navbar-nav #a3:hover{
+    font-family: 'New Shape';
+    color: white;
+    background-color: #1B4965;
+}
+
+.navbar .navbar-nav #a4{
+    font-family: 'New Shape';
+    color: black;
+    margin-right: 200px;
+    text-align: center;
+    padding: 19px 19px;
+}
+
+.navbar .navbar-nav #a4:hover{
+    font-family: 'New Shape';
+    color: white;
+    background-color: #1B4965;
+}
+
+.navbar .navbar-nav #logo{
+    font-family: 'Space Time';
+    color: black;
+    position: sticky;
+    width: 300px;
+    height: 50px;
+    left: 50px;
+    right: 200px;
+    margin-top: 21px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+
+.navbar .navbar-icon #shopping-bag{
+    color: black;
+    position: absolute;
+    left: 88%;
+    top: 20px;
+    bottom: 98.12%;
+}
+
+.navbar .navbar-icon #user{
+    color: black;
+    position: absolute;
+    left: 91%;
+    top: 20px;
+    bottom: 98.12%;
+}
+
+.navbar .navbar-icon #menu{
+    color: black;
+    position: absolute;
+    left: 94%;
+    top: 20px;
+    bottom: 98.12%;
+}
+
+/* hero section */
+.home{
+    display: flex;
+    background-image: url(images/home1.jpg);
+    background-size: cover;
+    position: absolute;
+    width: 1440px;
+    height: 543px;
+    left: 0px;
+    top: 70px;
+}
+
+h1{
+    position: absolute;
+    width: 387px;
+    height: 391px;
+    left: 38px;
+    top: 600px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 25px;
+    color: #000000;
+}
+
+h2{
+    position: absolute;
+    width: 412px;
+    height: 331px;
+    left: 545px;
+    top: 600px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+}
+
+h3{
+    position: absolute;
+    width: 322px;
+    height: 365px;
+    left: 1055px;
+    top: 600px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: right;
+    color: #000000;
+}
+
+h4{
+    position: absolute;
+    width: 385px;
+    height: 36px;
+    left: 571px;
+    top: 985px;
+    font-family: 'Inter';
+    font-style: bold;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 25px;
+    color: #1B4965;
+}
+
+.high-demand{
+    position: absolute;
+    width: 1359px;
+    height: 1295px;
+    left: 38px;
+    top: 1059px;
+    background: rgba(95, 168, 211, 0.5);
+    border-radius: 10px;
+}
+
+.high-demand a{
+    position: absolute;
+    width: 657px;
+    height: 53px;
+    left: 485px;
+    top: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.hd1 {
+    position: absolute;
+    width: 500px;
+    height: 375.03px;
+    left: 80px;
+    top: 1200px;
+    background: url(images/great-demand-2-fix.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+}
+
+.hd1 a{
+    position: absolute;
+    width: 595px;
+    height: 168px;
+    left: 650px;
+    top: 80px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.hd1 #no1{
+    position: absolute;
+    width: 78px;
+    height: 113px;
+    left: 550px;
+    top: 80px;
+    font-family: 'Space Time';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 84px;
+}
+
+.hd2{
+    position: absolute;
+    width: 500px;
+    height: 332.89px;
+    left: 80px;
+    top: 1600px;
+    background: url(images/great-demand-3-fix.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+}
+
+.hd2 #no2{
+    position: absolute;
+    width: 78px;
+    height: 113px;
+    left: 550px;
+    top: 70px;
+    font-family: 'Space Time';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 84px;
+}
+
+.hd2 a{
+    position: absolute;
+    width: 569px;
+    height: 221px;
+    left: 660px;
+    top: 70px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.hd3{
+    position: absolute;
+    width: 500px;
+    height: 333.37px;
+    left: 79px;
+    top: 1975px;
+    background: url(images/great-demand-1-fix.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+}
+
+.hd3 #no3{
+    position: absolute;
+    width: 78px;
+    height: 113px;
+    left: 550px;
+    top: 60px;
+    font-family: 'Space Time';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 84px;
+}
+
+.hd3 a{
+    position: absolute;
+    width: 624px;
+    height: 250px;
+    left: 660px;
+    top: 70px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+
+/* Product page start */
+.header-products{
+    position: absolute;
+    width: 386px;
+    height: 41px;
+    top: 20%;
+    left: 43%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #000000;
+}
+
+.products-1{
+    position: absolute;
+    width: 450px;
+    height: 380.81px;
+    left: 25px;
+    top: 200px;
+    background: url(images/Anna-elsa-LEGO.png);
+}
+
+#products-1{
+    position: absolute;
+    width: 441px;
+    height: 24px;
+    left: 20px;
+    top: 110%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+#p1-price{
+    position: absolute;
+    width: 212px;
+    height: 32px;
+    left: 20px;
+    top: 120%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+
+#add-to-bag{
+    position: absolute;
+    width: 158px;
+    height: 49px;
+    left: 20px;
+    top: 130%;
+    background: #5FA8D3;
+    border-radius: 20px;
+}
+
+#atb{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    left: 60px;
+    top: 133%;
+    position: absolute;
+    color: #fff;
+}
+
+#sb-products{
+    color: #FFFFFF;
+    left: 30px;
+    top: 133%;
+    position: absolute;
+}
+
+.products-2{
+    position: absolute;
+    width: 450px;
+    height: 386px;
+    left: 495px;
+    top: 179px;
+    background: url(images/vtech-learn-and-story-time.png);
+}
+
+#products-2{
+    position: absolute;
+    width: 360px;
+    height: 24px;
+    left: 40px;
+    top: 114%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+#p2-price{
+    position: absolute;
+    width: 212px;
+    height: 32px;
+    left: 40px;
+    top: 123%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+
+#add-to-bag-2{
+    position: absolute;
+    width: 158px;
+    height: 49px;
+    left: 40px;
+    top: 133%;
+    background: #5FA8D3;
+    border-radius: 20px;
+}
+
+#atb2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    left: 80px;
+    top: 136%;
+    position: absolute;
+    color: #fff;
+}
+
+#sb-products2{
+    color: #FFFFFF;
+    left: 50px;
+    top: 136%;
+    position: absolute;
+}
+
+.products-3{
+    position: absolute;
+    width: 450px;
+    height: 356px;
+    background: url(images/Vtech-Sort-Discover-Activity-cube.png);
+    right: 0px;
+    top: 210px;
+}
+
+#products-3{
+    position: absolute;
+    width: 360px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    top: 114%;
+}
+
+#p3-price{
+    position: absolute;
+    width: 212px;
+    height: 32px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    top: 125%;
+}
+
+#add-to-bag-3{
+    position: absolute;
+    width: 158px;
+    height: 49px;
+    left: 0px;
+    top: 136%;
+    background: #5FA8D3;
+    border-radius: 20px;
+}
+
+#atb3{
+    position: absolute;
+    width: 105px;
+    height: 32px;
+    left: 40px;
+    top: 139%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+#sb-products3{
+    color: #FFFFFF;
+    left: 10px;
+    top: 139%;
+    position: absolute;
+}
+
+.products-4{
+    position: absolute;
+    width: 450px;
+    height: 367px;
+    left: 0px;
+    top: 793px;
+    background: url(images/rubiks-1.png);
+}
+
+#products-4{
+    position: absolute;
+    width: 360px;
+    height: 24px;
+    left: 10%;
+    top: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+#p4-price{
+    position: absolute;
+    width: 212px;
+    height: 32px;
+    left: 10%;
+    top: 110%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+
+#add-to-bag-4{
+    position: absolute;
+    width: 158px;
+    height: 49px;
+    left: 10%;
+    top: 120%;
+    background: #5FA8D3;
+    border-radius: 20px;
+}
+
+#atb4{
+    position: absolute;
+    width: 105px;
+    height: 32px;
+    left: 19%;
+    top: 123%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+#sb-products4{
+    position: absolute;
+    left: 12%;
+    top: 123%;
+    color: #FFFFFF;
+}
+
+.products-5{
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    left: 30%;
+    top: 105%;
+    background: url(images/bubble-pets-1FIX.png);
+}
+
+#products-5{
+    position: absolute;
+    width: 360px;
+    height: 24px;
+    left: 23%;
+    top: 92%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+#p5-price{
+    left: 23%;
+    top: 100%;
+    position: absolute;
+    width: 212px;
+    height: 32px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+
+#add-to-bag-5{
+    position: absolute;
+    width: 158px;
+    height: 49px;
+    left: 23%;
+    top: 108%;
+    background: #5FA8D3;
+    border-radius: 20px;
+}
+
+#atb5{
+    position: absolute;
+    width: 105px;
+    height: 32px;
+    left: 32%;
+    top: 110.5%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+#sb-products5{
+    position: absolute;
+    left: 25%;
+    top: 110.5%;
+    color: #FFFFFF;
+}
+
+.products-6{
+    position: absolute;
+    width: 440px;
+    height: 367px;
+    left: 65%;
+    top: 110%;
+    background: url(images/cooking-set-1.png);
+}
+
+#products-6{
+    position: absolute;
+    width: 360px;
+    height: 24px;
+    left: 15%;;
+    top: 102%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+#p6-price{
+    position: absolute;
+    width: 212px;
+    height: 32px;
+    left: 15%;
+    top: 112%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+
+#add-to-bag-6{
+    position: absolute;
+    width: 158px;
+    height: 49px;
+    left: 15%;
+    top: 122%;
+    background: #5FA8D3;
+    border-radius: 20px;
+}
+
+#atb6{
+    position: absolute;
+    width: 105px;
+    height: 32px;
+    left: 25%;
+    top: 125%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+#sb-products6{
+    position: absolute;
+    left: 18%;
+    top: 125%;
+    color: #FFFFFF;
+}
+
+.products-7{
+    position: absolute;
+    width: 375px;
+    height: 375px;
+    left: 2%;
+    top: 1342px;
+    background: url(images/cinderella-crown-1.png);
+}
+
+#products-7{
+    position: absolute;
+    width: 360px;
+    height: 24px;
+    left: 2%;
+    top: 105%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+#p7-price{
+    position: absolute;
+    width: 212px;
+    height: 32px;
+    left: 3%;
+    top: 113%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+
+#add-to-bag-7{
+    position: absolute;
+    width: 158px;
+    height: 49px;
+    left: 3%;
+    top: 122%;
+    background: #5FA8D3;
+    border-radius: 20px;
+}
+
+#atb7{
+    position: absolute;
+    width: 105px;
+    height: 32px;
+    left: 14%;
+    top: 125%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+#sb-products7{
+    position: absolute;
+    left: 6%;
+    top: 125%;
+    color: #FFFFFF;
+}
+
+.products-8{
+    position: absolute;
+    width: 402px;
+    height: 298px;
+    left: 498px;
+    top: 1429px;
+    background: url(images/water-blaster-1.png);
+}
+
+#products-8{
+    position: absolute;
+    width: 360px;
+    height: 24px;
+    left: 10%;
+    top: 103%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+#p8-price{
+    position: absolute;
+    width: 212px;
+    height: 32px;
+    left: 10%;
+    top: 113%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+
+#add-to-bag-8{
+    position: absolute;
+    width: 158px;
+    height: 49px;
+    left: 10%;
+    top: 124%;
+    background: #5FA8D3;
+    border-radius: 20px;
+}
+
+#atb8{
+    position: absolute;
+    width: 105px;
+    height: 32px;
+    left: 20%;
+    top: 128%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+#sb-products8{
+    position: absolute;
+    left: 12%;
+    top: 128%;
+    color: #FFFFFF;
+}
+
+.products-9{
+    position: absolute;
+    width: 450px;
+    height: 390px;
+    left: 961px;
+    top: 1321px;
+    background: url(images/cocomelon-firetruck-1.png);
+}
+
+#products-9{
+    position: absolute;
+    width: 360px;
+    height: 24px;
+    left: 15%;
+    top: 106%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+#p9-price{
+    position: absolute;
+    width: 212px;
+    height: 32px;
+    left: 15%;
+    top: 114%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+
+#add-to-bag-9{
+    position: absolute;
+    width: 158px;
+    height: 49px;
+    left: 15%;
+    top: 122%;
+    background: #5FA8D3;
+    border-radius: 20px;
+}
+
+#atb9{
+    position: absolute;
+    width: 105px;
+    height: 32px;
+    left: 25%;
+    top: 125%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+#sb-products9{
+    position: absolute;
+    left: 18%;
+    top: 125%;
+    color: #FFFFFF;
+}
+
+.products-10{
+    position: absolute;
+    width: 450px;
+    height: 337.5px;
+    top: 1919px;
+    background: url(images/lego-flower-1.png);
+}
+
+#products-10{
+    position: absolute;
+    width: 360px;
+    height: 24px;
+    left: 8%;
+    top: 110%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+#p10-price{
+    left: 8%;
+    top: 120%;
+    position: absolute;
+    width: 212px;
+    height: 32px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+
+#add-to-bag-10{
+    position: absolute;
+    width: 158px;
+    height: 49px;
+    left: 8%;
+    top: 130%;
+    background: #5FA8D3;
+    border-radius: 20px;
+}
+
+#atb10{
+    left: 17%;
+    top: 133%;
+    position: absolute;
+    width: 105px;
+    height: 32px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+#sb-products10{
+    position: absolute;
+    left: 10%;
+    top: 133%;
+    color: #FFFFFF;
+}
+
+.products-11{
+    position: absolute;
+    width: 450px;
+    height: 361px;
+    left: 485px;
+    top: 1919px;
+    background: url(images/excavator-1.png);
+}
+
+#products-11{
+    position: absolute;
+    width: 360px;
+    height: 24px;
+    left: 12%;
+    top: 103%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+#p11-price{
+    position: absolute;
+    width: 212px;
+    height: 32px;
+    left: 12%;
+    top: 113%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+
+#add-to-bag-11{
+    position: absolute;
+    width: 158px;
+    height: 49px;
+    left: 12%;
+    top: 122%;
+    background: #5FA8D3;
+    border-radius: 20px;
+}
+
+#atb11{
+    position: absolute;
+    width: 105px;
+    height: 32px;
+    left: 22%;
+    top: 125%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+#sb-products11{
+    position: absolute;
+    left: 15%;
+    top: 125%;
+    color: #FFFFFF;
+}
+
+.products-12{
+    position: absolute;
+    width: 386px;
+    height: 385px;
+    left: 1006px;
+    top: 1895px;
+    background: url(images/ride-on-unicorn-1.png);
+}
+
+#products-12{
+    position: absolute;
+    width: 360px;
+    height: 24px;
+    left: 10%;
+    top: 103%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+#p12-price{
+    left: 10%;
+    top: 112%;
+    position: absolute;
+    width: 212px;
+    height: 32px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+
+#add-to-bag-12{
+    position: absolute;
+    width: 158px;
+    height: 49px;
+    left: 10%;
+    top: 121%;
+    background: #5FA8D3;
+    border-radius: 20px;
+}
+
+#atb12{
+    position: absolute;
+    width: 105px;
+    height: 32px;
+    left: 21%;
+    top: 124%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+#sb-products12{
+    position: absolute;
+    left: 13%;
+    top: 124%;
+    color: #FFFFFF;
+}
+/* Product page end */
+
+/* Display product start */
+#p1-desc{
+    position: absolute;
+    width: 695px;
+    height: 444.8px;
+    left: 43px;
+    top: 136px;
+}
+
+#p1-desc-bawah1{
+    position: absolute;
+    width: 119px;
+    height: 124.77px;
+    left: 72px;
+    top: 624px;
+}
+
+#p1-desc-bawah2{
+    position: absolute;
+    width: 119px;
+    height: 99px;
+    left: 232px;
+    top: 636px;
+}
+
+#p1-desc-bawah3{
+    position: absolute;
+    width: 119px;
+    height: 89.25px;
+    left: 380px;
+    top: 646px;
+}
+
+#p1-desc-bawah4{
+    position: absolute;
+    width: 119px;
+    height: 108.59px;
+    left: 535px;
+    top: 626px;
+}
+
+#p1-text{
+    position: absolute;
+    width: 584px;
+    height: 92px;
+    left: 780px;
+    top: 157px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    color: #000000;
+}
+
+#p1-pr{
+    position: absolute;
+    width: 189px;
+    height: 45px;
+    left: 800px;
+    top: 235px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: #000000;
+}
+
+p {
+    position: absolute;
+    width: 583px;
+    height: 308px;
+    left: 810px;
+    top: 316px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.atbp1{
+    position: absolute;
+    width: 416px;
+    height: 84px;
+    left: 882px;
+    top: 636px;
+    background: #5FA8D3;
+    border-radius: 20px;
+}
+
+#atbp1-button{
+    position: absolute;
+    width: 274px;
+    height: 40px;
+    left: 71%;
+    top: 658px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+#more{
+    position: absolute;
+    width: 1343px;
+    height: 57px;
+    left: 48px;
+    top: 889px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
+    color: #000000;
+}
+
+#mp1{
+    position: absolute;
+    width: 300px;
+    height: 225px;
+    left: 18px;
+    top: 989px;
+}
+
+#mp2{
+    position: absolute;
+    width: 300px;
+    height: 260px;
+    left: 354px;
+    top: 972px;
+}
+
+#mp3{
+    position: absolute;
+    width: 300px;
+    height: 222.39px;
+    left: 690px;
+    top: 1002px;
+}
+
+#mp4{
+    position: absolute;
+    width: 300px;
+    height: 237.33px;
+    left: 1050px;
+    top: 977px;
+}
+
+#p2-desc{
+    position: absolute;
+    left: 43px;
+    top: 136px;
+}
+
+#p2-text{
+    position: absolute;
+    width: 584px;
+    height: 92px;
+    left: 800px;
+    top: 157px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    color: #000000;
+}
+
+#p2-pr{
+    position: absolute;
+    width: 189px;
+    height: 45px;
+    left: 800px;
+    top: 235px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: #000000;
+}
+
+#more-p2{
+    position: absolute;
+    width: 1343px;
+    height: 57px;
+    left: 48px;
+    top: 889px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
+    color: #000000;
+}
+
+#mp1-p2{
+    position: absolute;
+    width: 300px;
+    height: 225px;
+    left: 18px;
+    top: 989px;
+}
+
+#mp2-p2{
+    position: absolute;
+    width: 300px;
+    height: 260px;
+    left: 354px;
+    top: 972px;
+}
+
+#mp3-p2{
+    position: absolute;
+    width: 300px;
+    height: 222.39px;
+    left: 690px;
+    top: 1002px;
+}
+
+#mp4-p2{
+    position: absolute;
+    width: 300px;
+    height: 237.33px;
+    left: 1050px;
+    top: 977px;
+}
+
+#p3-text{
+    position: absolute;
+    width: 584px;
+    height: 92px;
+    left: 800px;
+    top: 157px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    color: #000000;
+}
+
+#p3-pr{
+    position: absolute;
+    width: 189px;
+    height: 45px;
+    left: 800px;
+    top: 235px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  display product end */
+
+
+/* Gallery page start */
+.title{
+    position: absolute;
+    width: 771px;
+    height: 150px;
+    left: 635px;
+    top: 114px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 75px;
+    color: #000000;
+}
+
+#gallery1{
+    position: absolute;
+    width: 478px;
+    height: 768px;
+    left: 138px;
+    top: 243px;
+    background: url(images/gallery1.png);
+}
+
+#gallery2{
+    position: absolute;
+    width: 712px;
+    height: 494px;
+    left: 637px;
+    top: 243px;
+    background: url(images/gallery2.png);
+}
+
+#gallery3{
+    position: absolute;
+    width: 699px;
+    height: 376px;
+    left: 643px;
+    top: 762px;
+    background: url(images/gallery3.png);
+}
+
+#gallery4{
+    position: absolute;
+    width: 478px;
+    height: 324px;
+    left: 138px;
+    top: 1023px;
+    background: url(images/gallery4.png);
+}
+
+#gallery5{
+    position: absolute;
+    width: 478px;
+    height: 333px;
+    left: 138px;
+    top: 1367px;
+    background: url(images/gallery5.png);
+}
+
+#gallery6{
+    position: absolute;
+    width: 478px;
+    height: 378px;
+    left: 138px;
+    top: 1734px;
+    background: url(images/gallery6.png);
+}
+
+#gallery7{
+    position: absolute;
+    width: 720px;
+    height: 1009px;
+    left: 643px;
+    top: 1168px;
+    background: url(images/gallery7.png);
+}
+/* Gallery page end */
+
+
+/* Event page start */
+.titleEvent{
+    position: absolute;
+    width: 298px;
+    height: 71px;
+    left: 625px;
+    top: 160px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 75px;
+    color: #000000;
+}
+
+.event1{
+    position: absolute;
+    width: 699px;
+    height: 450px;
+    left: 0px;
+    top: 350px;
+    background: url(images/event1.png);
+}
+
+.latarEvent1{
+    position: absolute;
+    width: 741px;
+    height: 451px;
+    left: 699px;
+    top: 350px;
+    background: #5FA8D3;
+}
+
+.judulEvent1{
+    position: absolute;
+    width: 728px;
+    height: 401px;
+    left: 733px;
+    top: 400px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.ketEvent1{
+    position: absolute;
+    width: 728px;
+    height: 401px;
+    left: 733px;
+    top: 490px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.event2{
+    position: absolute;
+    width: 741px;
+    height: 432px;
+    left: 700px;
+    right: 0px;
+    top: 900px;
+    background: url(images/event2.png);
+}
+
+.latarEvent2{
+    position: absolute;
+    width: 700px;
+    height: 432px;
+    left: 0px;
+    top: 900px;
+    background: #5FA8D3;
+}
+
+.judulEvent2{
+    position: absolute;
+    width: 665px;
+    height: 316px;
+    left: 40px;
+    top: 950px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+}
+
+.ketEvent2{
+    position: absolute;
+    width: 665px;
+    height: 316px;
+    left: 34px;
+    top: 1050px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.event3{
+    position: absolute;
+    width: 699px;
+    height: 450px;
+    left: 0px;
+    top: 1432px;
+    background: url(images/event3.png);
+}
+
+.latarEvent3{
+    position: absolute;
+    width: 741px;
+    height: 451px;
+    left: 699px;
+    top: 1432px;
+    background: #5FA8D3;
+}
+
+.judulEvent3{
+    position: absolute;
+    width: 699px;
+    height: 342px;
+    left: 745px;
+    top: 1490px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.ketEvent3{
+    position: absolute;
+    width: 699px;
+    height: 342px;
+    left: 745px;
+    top: 1590px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+/* Event page end */
+
+
+/* Register page start */
+.container{
+    box-sizing: border-box;
+    position: absolute;
+    width: 1100px;
+    height: 950px;
+    left: 174px;
+    top: 162px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+#RegTitle{
+    position: absolute;
+    width: 259px;
+    height: 63px;
+    left: 450px;
+    top: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    color: #000000;
+}
+
+label[for="name"]{
+    font-family: 'Inter';
+    position: absolute;
+    font-size: 20px;
+    left: 220px;
+    top: 180px;
+}
+
+input[type="name"]{
+    box-sizing: border-box;
+    position: absolute;
+    width: 643px;
+    height: 50px;
+    left: 220px;
+    top: 220px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+label[for="Email"]{
+    font-family: 'Inter';
+    position: absolute;
+    font-size: 20px;
+    left: 220px;
+    top: 300px;
+}
+
+input[type="email"]{
+    box-sizing: border-box;
+    position: absolute;
+    width: 643px;
+    height: 50px;
+    left: 220px;
+    top: 340px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+label[for="Password"]{
+    font-family: 'Inter';
+    position: absolute;
+    font-size: 20px;
+    left: 220px;
+    top: 420px;
+}
+
+input[type="password"]{
+    box-sizing: border-box;
+    position: absolute;
+    width: 643px;
+    height: 50px;
+    left: 220px;
+    top: 460px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+label[for="dob"]{
+    font-family: 'Inter';
+    position: absolute;
+    font-size: 20px;
+    left: 220px;
+    top: 540px;
+}
+
+input[type="date"]{
+    box-sizing: border-box;
+    position: absolute;
+    width: 643px;
+    height: 50px;
+    left: 220px;
+    top: 580px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+label[for="tnc"]{ 
+    position: absolute;
+    left: 370px;
+    top: 670px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+input[type="checkbox"]{
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 330px;
+    top: 670px;
+    border-radius: 5px;
+}
+
+button[type="submit"]{
+    position: absolute;
+    width: 400px;
+    height: 65px;
+    left: 350px;
+    top: 750px;
+    background: #BEE9E8;
+    border-radius: 8px;
+}
+
+.registerbtn{
+    position: absolute;
+    width: 348px;
+    height: 56px;
+    left: 546px;
+    top: 796px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+
+/* Register page end */
+
+
+/* styling footer */
+.footer{
+    position: absolute;
+    width: 1440px;
+    height: 400px;
+    left: 0px;
+    top: 2500px;
+    background: rgba(98, 182, 203, 0.5);
+}
+
+.footer #logo-footer{
+    font-family: 'Space Time';
+    color: black;
+    left: 3%;
+    right: 0%;
+    top: 8%;
+    bottom: 12.86%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: left;
+    position: absolute;
+}
+
+.footer #map-pin{
+    position: absolute;
+    left: 4%;
+    top: 30%;
+    bottom: 13%;
+}
+
+.footer #map-footer{
+    position: absolute;
+    left: 6%;
+    top: 29%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: left;
+    color: #000000;
+}
+
+.footer #alamat{
+    position: absolute;
+    width: 249px;
+    height: 46px;
+    left: 4%;
+    top: 40%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #000000;
+    }
+
+.footer #copyright{
+    position: absolute;
+    left: 3%;
+    top: 60%;
+    font-family: 'Inter';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.footer #about-us{
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.footer #au1{
+    position: absolute;
+    left: 40%;
+    top: 25%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.footer #au2{
+    position: absolute;
+    left: 40%;
+    top: 35%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.footer #au3{
+    position: absolute;
+    left: 40%;
+    top: 45%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.footer #au4{
+    position: absolute;
+    left: 40%;
+    top: 55%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.footer #au5{
+    position: absolute;
+    left: 40%;
+    top: 65%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.footer #support{
+    position: absolute;
+    left: 67%;
+    top: 10%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.footer #s1{
+    position: absolute;
+    left: 67%;
+    top: 25%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.footer #s2{
+    position: absolute;
+    left: 67%;
+    top: 35%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.footer #s3{
+    position: absolute;
+    left: 67%;
+    top: 45%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.footer #s4{
+    position: absolute;
+    left: 67%;
+    top: 55%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.footer #s5{
+    position: absolute;
+    left: 67%;
+    top: 65%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.footer #follow-us{
+    position: absolute;
+    left: 85%;
+    top: 10%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.footer #facebook{
+    position: absolute;
+    left: 85%;
+    top: 20%;
+    color: black;
+}
+
+.footer #twitter{
+    position: absolute;
+    left: 87%;
+    top: 20%;
+    color: black;
+}
+
+.footer #instagram{
+    position: absolute;
+    left: 89%;
+    top: 20%;
+    color: black;
+}
+
+.footer #youtube{
+    position: absolute;
+    left: 91%;
+    top: 20%;
+    color: black;
+}
